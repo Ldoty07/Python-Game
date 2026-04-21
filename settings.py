@@ -7,7 +7,10 @@ class Settings:
         self.screen_height = 800
         self.bg_color = (21, 84, 148)
 
+
+        # Ship settings
         self.ship_speed = 3.5
+        self.ship_limit = 3
 
 
         # Bullet Settings
@@ -15,7 +18,7 @@ class Settings:
         self.bullet_width = 3
         self.bullet_height = 15
         self.bullet_color = (255, 255, 255)
-        self.bullets_allowed = 20
+        self.bullets_allowed = 40
 
 
         # Alien Settings
