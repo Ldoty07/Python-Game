@@ -124,7 +124,7 @@ class AlienInvasion:
             self.aliens.empty()
 
             self._create_fleet()
-            self.ship.center_ship
+            self.ship.center_ship()
 
             # Pause
             sleep(0.5)
